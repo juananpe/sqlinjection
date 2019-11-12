@@ -14,8 +14,9 @@ Note: the database volume will be stored in ./database
 
 ### How to start?
 
+login, pass and db name are hardcoded:
+
 ```
-$ cp docker-compose.yml.example docker-compose.yml
 $ vi docker-compose.yml
 $ vi html/public/includes/config.inc
 $ docker-compose up -d
