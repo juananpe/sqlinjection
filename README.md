@@ -23,7 +23,7 @@ $ docker-compose up -d
 
 ```
 
-Wait a minute before trying to connect to  http://localhost:8888
+Wait a minute before trying to connect to  http://localhost:8888 (otherwise, you will get "Connection refused" errors from MariaDB/MySQL)
 
 
 ### How to stop?
