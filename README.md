@@ -22,4 +22,13 @@ $ docker-compose up -d
 
 ```
 
+### How to stop?
+```
+$ docker compose down
+```
+
+### What is the lab's URL?
+
+It is exposed on http://localhost:8888
+
 
