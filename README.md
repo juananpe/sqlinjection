@@ -8,8 +8,9 @@ Based on:
 ## Where do I put my files?
 
 - MySQL Dump -> dump/
-- database -> database/
 - vulnerable php app -> html/public
+
+Note: the database volume will be stored in ./database
 
 ### How to start?
 
