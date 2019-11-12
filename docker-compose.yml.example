@@ -21,7 +21,7 @@ services:
     - MYSQL_PASSWORD=userpass
 
   application:
-    image: php-mysql:5.4-apache
+    image: juananpe/php-mysql:5.6-apache
     environment:
     # Database parameters of app
     - DB_HOST=mariadb
