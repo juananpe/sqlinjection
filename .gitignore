@@ -1,3 +1,2 @@
 database/*
 !database/.gitkeep 
-docker-compose.yml

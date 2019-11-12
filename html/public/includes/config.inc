@@ -2,8 +2,8 @@
 
 // Edit lines below to setup your database connection.
 define("DB_SERVER", "mariadb");
-define("DB_USER", "rootuser");
-define("DB_PWD", "rootpass");
+define("DB_USER", "root");
+define("DB_PWD", "euiti2019");
 define("DB_NAME", "sqlinjection");
 
 // Base path. Edit below if the simulation environment is not at the root of your webserver.

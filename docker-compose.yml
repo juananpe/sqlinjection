@@ -14,11 +14,11 @@ services:
     - ./dump:/docker-entrypoint-initdb.d
     environment:
     # Parameters which will be used in application
-    - MYSQL_ROOT_PASSWORD=rootpass
+    - MYSQL_ROOT_PASSWORD=euiti2019
     - MYSQL_ROOT_HOST=%
     - MYSQL_DATABASE=sqlinjection
-    - MYSQL_USER=user
-    - MYSQL_PASSWORD=userpass
+    - MYSQL_USER=euiti
+    - MYSQL_PASSWORD=euiti2019
 
   application:
     image: juananpe/php-mysql:5.6-apache
@@ -26,8 +26,8 @@ services:
     # Database parameters of app
     - DB_HOST=mariadb
     - DB_NAME=sqlinjection
-    - DB_USER=user
-    - DB_PASS=userpass
+    - DB_USER=euiti
+    - DB_PASS=euiti2019
     # Settings of php.ini
     - PHP_SHORT_OPEN_TAG=On
     - PHP_ERROR_REPORTING=E_ALL
