@@ -23,13 +23,13 @@ $ docker-compose up -d
 
 ```
 
+Wait a minute before trying to connect to  http://localhost:8888
+
+
 ### How to stop?
 ```
 $ docker compose down
 ```
 
-### What is the lab's URL?
-
-It is exposed on http://localhost:8888
 
 
