@@ -12,7 +12,7 @@ Based on:
 
 Note: the database volume will be stored in ./database
 
-### How to start?
+### How to start the lab?
 
 login, pass and db name are hardcoded in `docker-compose.yml` and `html/public/includes/config.inc`. To start the lab, just run:
 
@@ -23,7 +23,7 @@ $ docker-compose up -d
 Wait a minute before trying to connect to  http://localhost:8888 (otherwise, you will get "Connection refused" errors from MariaDB/MySQL)
 
 
-### How to stop?
+### How to stop the lab?
 ```
 $ docker compose down
 ```
