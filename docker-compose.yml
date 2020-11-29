@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     image: mariadb:latest
     ports:
-    # Database port will be open only on localhost
+    # Database port will be open only on localhost for security 
     - 127.0.0.1:3308:3306
     volumes:
     # Path to folder of local filesystem with database files
