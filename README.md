@@ -1,4 +1,4 @@
-# Dockerized SQLi Lab
+# Dockerized SQLi Lab (ii)
 
 Based on:
 - SQLi Labs https://github.com/Audi-1/sqli-labs
