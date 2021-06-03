@@ -1,2 +1,0 @@
-v1.00 (2012-03-27)
-First release of the testing environment.
